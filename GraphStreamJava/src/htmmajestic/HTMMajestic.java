@@ -25,7 +25,7 @@ public class HTMMajestic {
         graph.addNode("B");
         graph.addNode("C");
         graph.addEdge("AB", "A", "B");
-        graph.getEdge("AB").addAttribute("ui.style", "fill-color: rgb(0,100,255);weight:10px;");
+        graph.getEdge("AB").addAttribute("ui.style", "fill-color: rgb(0,100,255);stroke-width:100;");
         graph.addEdge("BC", "B", "C");
         graph.addEdge("CA", "C", "A");
         graph.display();
